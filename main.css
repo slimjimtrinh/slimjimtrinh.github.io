@@ -26,7 +26,10 @@ header p {
   padding: 0 20px;
   margin: 0;
 }
+.container {
+  background-image: url("gradientGreen.jpg");
 
+}
 .jumbotron {
   display: flex;
   align-items: center;
