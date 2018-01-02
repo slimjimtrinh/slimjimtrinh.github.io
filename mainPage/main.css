@@ -5,9 +5,9 @@ body {
 
 header {
   padding: 20px 0;
+  background-image: url("https://webgradients.com/public/webgradients_png/035%20Itmeo%20Branding.png");
 }
 
-header .row,
 footer .row {
   display: flex;
   align-items: center;
@@ -15,7 +15,7 @@ footer .row {
 
 header h1 {
   font-weight: 700;
-  margin: 0;
+  margin-top: 15px;
 }
 
 header nav {
@@ -31,6 +31,7 @@ header p {
 .jumbotron {
   display: flex;
   align-items: center;
+  background-image: url("https://s-media-cache-ak0.pinimg.com/originals/22/68/df/2268df81564879b1aeb8fab72b10f5c2.jpg");
   background-size: cover;
   color: #ffffff;
   height: 500px;
@@ -78,13 +79,15 @@ section .row img {
 }
 
 footer {
+  border: 20px;
   font-size: 12px;
   padding: 20px 0;
+  display: flex;
+  justify-content: flex-end;
 }
 
 footer .col-sm-8 {
-  display: flex;
-  justify-content: flex-end;
+
 }
 
 footer ul {
