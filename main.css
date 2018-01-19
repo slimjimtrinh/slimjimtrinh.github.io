@@ -9,9 +9,6 @@ ul {
     width: 100%;
 }
 
-li {
-    float: right;
-}
 
 li a {
     display: block;
@@ -19,6 +16,7 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    float: right;
 }
 
 li a:hover:not(.active) {
@@ -26,6 +24,7 @@ li a:hover:not(.active) {
 }
 
 li h1 {
+  margin: 5px;
   margin-right: 20px;
   color: white;
 }
