@@ -34,9 +34,9 @@ li h1 {
     background-color: #208bf7;
 }
 
-.frontimg {
-  width: 200px;
-  height: 1020px;
+img {
+  width: 100%;
+  height: auto;
 }
 
 div {
