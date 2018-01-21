@@ -6,7 +6,7 @@ ul {
     background-color: #333;
     position: fixed;
     top: 0;
-    width: 95%;
+    width: 99%;
 }
 
 
@@ -25,9 +25,9 @@ li a:hover:not(.active) {
 
 li h1 {
   margin: 0;
-  margin-left:5px;
+  margin-left: 20px;
   color: white;
-  text-align: center;
+  text-align: left;
 }
 
 .active {
