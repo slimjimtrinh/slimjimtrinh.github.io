@@ -21,6 +21,7 @@ li a {
     padding:12px 6px;
     text-decoration: none;
     float: right;
+    overflow: hidden;
 }
 
 li a:hover:not(.active) {
@@ -56,6 +57,7 @@ h2{
   width: 100%;
   font-size: 50px;
   font-weight: bold;
+  overflow: hidden;
 }
 
 div {
