@@ -48,16 +48,17 @@ li h1 {
 
 img{
   width: 100%;
-  height: 300px;
+  height: 325px;
 }
 
 h1{
-  margin: 10px;
+  margin: 6px;
+  margin-bottom:0;
 }
 
 h2{
   position: absolute;
-  top: 100px;
+  top: 110px;
   text-align: center;
   width: 100%;
   font-size: 50px;
@@ -65,25 +66,38 @@ h2{
   overflow: hidden;
 }
 
-div {
-  margin: 10px;
-  border-radius: 25px;
+p {
+  font-size: 18px;
 }
 
-.mainbox {
+div {
+  margin: 8px;
+}
+
+.leftside {
+  /*
+
   border: 2px solid #333;
   border-radius: 25px;
   padding: 2px;
+
+  */
+  float: left;
+  width: 50%;
 }
 
 .rightside {
-  float:right;
+  float: right;
+  border: 2px solid #333;
+  text-align: left;
+  width: 45%;
 }
 
 hr {
   margin:0;
-  border: 3px #333 solid;
+  border: 1px #333 solid;
 }
+
 
 ol{
   float:left
@@ -96,4 +110,9 @@ footer{
   overflow: hidden;
   width: 100%;
   color:white;
+}
+
+footer p{
+  font-size: 20px;
+  margin: 10px;
 }

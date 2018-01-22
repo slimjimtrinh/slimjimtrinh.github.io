@@ -3,8 +3,10 @@ body {
 }
 
 div {
-  margin-top: 20px;
+  margin-top: 30px;
   padding-top: 20px;
+  float: inherit;
+  text-align: center;
 }
 
 ul {
@@ -45,8 +47,30 @@ li h1 {
     background-color: #208bf7;
 }
 
-div{
-  float:inherit;
-  text-align: center;
-  border: 2px;
+footer{
+  background-color: #333;
+  overflow: hidden;
+  width: 100%;
+  color:white;
+}
+
+footer p{
+  margin-left: 15px;
+}
+
+/* Start of Resume and cover letter styles */
+.resumebox {
+  text-align: left;
+}
+
+div h1 {
+  margin: 0;
+}
+
+.coverletterbox {
+  text-align: left;
+}
+
+div hr {
+  margin:0;
 }
