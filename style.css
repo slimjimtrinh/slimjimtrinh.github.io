@@ -64,6 +64,14 @@ footer p{
   margin-left: 15px;
 }
 
+/*Start of JobFind styles */
+div p {
+  margin: 15px;
+  padding: 15px;
+  text-align: justify;
+}
+/* end */
+
 /* Start of Resume and cover letter styles */
 .resumebox {
   text-align: left;
