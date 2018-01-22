@@ -57,6 +57,7 @@ footer{
   overflow: hidden;
   width: 100%;
   color:white;
+  position: static;
 }
 
 footer p{
