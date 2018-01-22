@@ -9,6 +9,11 @@ div {
   text-align: center;
 }
 
+p {
+  font-size: 18px;
+  margin: 8px;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -74,3 +79,8 @@ div h1 {
 div hr {
   margin:0;
 }
+
+/* Start of tip style */
+ ol li{
+   font-size: 20px;
+ }
