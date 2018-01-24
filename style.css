@@ -75,9 +75,27 @@ div img {
   width: 50%;
 }
 
+#hleft {
+width: 40%;
+}
+
+#hright {
+  text-align: right;
+  width: 84%;
+}
 #bannerdtxt {
   margin: 10px 100px;
   padding: 5px 30px;
+}
+
+#rightp {
+float: right;
+  width: 40%;
+}
+
+#leftp {
+  float: left;
+  width: 40%;
 }
 
 /* end */
