@@ -103,6 +103,10 @@ div hr {
   margin:0;
 }
 
+#rcpic {
+  width: 40%;
+}
+
 /* Start of tip style */
  ol li{
    font-size: 20px;
