@@ -147,6 +147,11 @@ div hr {
   width: 40%;
 }
 
+#bottomp {
+  margin: 8px 15px;
+  padding: 8px 15px;
+}
+
 /* Start of tip style */
  ol li{
    font-size: 20px;
