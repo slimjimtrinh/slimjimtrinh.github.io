@@ -111,6 +111,7 @@ ol{
   float:left
   display: block;
   text-align: left;
+  margin-left: 10px;
 }
 
 footer{
