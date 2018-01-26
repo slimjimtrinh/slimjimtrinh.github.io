@@ -99,14 +99,14 @@ width: 40%;
 
 #rightp {
 float: right;
-  width: 45%;
+  width: 44%;
   margin: 5px;
   padding: 10px;
 }
 
 #leftp {
   float: left;
-  width: 45%;
+  width: 44%;
   margin: 5px;
 }
 
@@ -150,6 +150,7 @@ div hr {
 #bottomp {
   margin: 8px 15px;
   padding: 8px 15px;
+  width: 95%;
 }
 
 /* Start of tip style */
