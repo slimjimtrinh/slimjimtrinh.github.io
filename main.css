@@ -1,6 +1,6 @@
 body {
   margin:0;
-  background-color: #fcfcfc;
+  background: linear-gradient(rgba(255, 255, 255,0) 60%, rgba(204, 208, 212,.8));
 }
 
 ul {
