@@ -1,3 +1,4 @@
+S
 * {
    margin: 0px;
    padding: 0px;
@@ -169,11 +170,9 @@ p {
 
 .leftside {
   /*
-
   border: 2px solid #333;
   border-radius: 25px;
   padding: 2px;
-
   */
   float: left;
   width: 50%;
