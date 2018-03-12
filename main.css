@@ -1,3 +1,71 @@
+/*start of parallax */
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  opacity: 0.95;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url("earth.png");
+  min-height: 100%;
+}
+
+.bgimg-2 {
+  background-image: url("night.jpg");
+  min-height: 400px;
+}
+
+.bgimg-3 {
+  background-image: url("sky.jpg");
+  min-height: 400px;
+}
+/*
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+*/
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
+
+
+  /*end of parallax*/
+
+
+
+
 S
 * {
    margin: 0px;
@@ -11,7 +79,7 @@ html, body {
 
 .header {
   position: fixed;
-  top: 0;
+  top: 7.8%;
   z-index: 1;
   width: 100%;
   background-color: #f1f1f1;
@@ -32,7 +100,7 @@ html, body {
 .cube {
   -webkit-transform-style: preserve-3d;
   -webkit-animation: spin 25s infinite linear;
-  position: relative;
+  position: absolute;
   width: 100px;
   height: 100px;
   top: 50%;
@@ -100,6 +168,7 @@ ul {
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 1;
 }
 
 
@@ -149,18 +218,18 @@ h1{
 
 h2{
   position: absolute;
-  top: 35%;
+  top: 30%;
   margin-left: 32.8%;
   padding: 15px;
   text-align: center;
   width: 30%;
   max-width: 30%;
-  font-size: 55px;
+  font-size: 50px;
   color: white;
   font-weight: bold;
   overflow: hidden;
   border: 2px solid #333;
-  background-color: rgba(0,0,0,0.7);
+  background-color: rgba(0,0,0,0.4);
   border-radius: 4px;
 }
 
@@ -207,5 +276,5 @@ footer{
 
 footer p{
   font-size: 20px;
-  margin: 10px;
+  margin: 8px;
 }
