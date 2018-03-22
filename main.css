@@ -242,22 +242,6 @@ p {
   font-size: 18px;
 }
 
-.leftside {
-  /*
-  border: 2px solid #333;
-  border-radius: 25px;
-  padding: 2px;
-  */
-  float: left;
-  width: 50%;
-}
-
-.rightside {
-  float: right;
-  border: 2px solid #333;
-  text-align: left;
-  width: 45%;
-}
 
 hr {
   margin:0;
