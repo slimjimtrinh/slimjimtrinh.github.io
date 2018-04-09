@@ -9,6 +9,16 @@ height: 400px;
 width: 100%;
 }
 
+a:link {
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    background-color: transparent;
+    text-decoration: none;
+}
+
 .logo {
   height: 50px;
   width: 50px;

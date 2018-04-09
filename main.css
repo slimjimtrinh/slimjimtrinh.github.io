@@ -15,22 +15,22 @@ body, html {
 
 }
 .bgimg-1 {
-  background-image: url("earth.png");
+  background-image: url("img/earth.png");
   min-height: 100%;
 }
 
 .bgimg-2 {
-  background-image: url("night.jpg");
+  background-image: url("img/night.jpg");
   min-height: 500px;
 }
 
 .bgimg-3 {
-  background-image: url("sky.jpg");
+  background-image: url("img/sky.jpg");
   min-height: 500px;
 }
 
 .bgimg-4 {
-  background-image: url("sunset.jpg");
+  background-image: url("img/sunset.jpg");
   min-height: 500px;
 }
 /*
