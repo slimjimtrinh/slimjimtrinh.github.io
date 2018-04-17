@@ -37,6 +37,7 @@ function myFunction() {
 }
 
 
+/*
 // Initalize, or declare, a variable that will store the outcome of the game (win or lose)
 var outcome;
 
@@ -163,3 +164,4 @@ if (outcome === "lose") {
 } else if (outcome === "win") {
   window.alert("You win!");
 }
+*/

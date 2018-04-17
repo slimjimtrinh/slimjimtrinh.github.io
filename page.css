@@ -20,14 +20,14 @@ a:visited {
 }
 
 .logo {
-  height: 50px;
-  width: 50px;
+  height: 60px;
+  width: 60px;
   -webkit-transition: width .5s, height .5s; /* For Safari 3.1 to 6.0 */
   transition: width .5s, height .5s;
 }
 .logo:hover {
-  height:70px;
-  width:70px;
+  height:85px;
+  width:85px;
 }
 
 
